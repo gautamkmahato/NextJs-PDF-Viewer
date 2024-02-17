@@ -1,0 +1,53 @@
+.pdf-container-document{
+  /* border: 2px solid black; */
+  display:inline-block;
+  position: relative;
+}
+.pdf-container{
+  text-align: center;
+}
+
+.overlay-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  border: 1px solid black; 
+  color: #dbdbdb; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  border: 1px solid black;
+}
+
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  border: 1px solid black;
+}
+
+.top-right {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border: 1px solid black;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  border: 1px solid black;
+}
